@@ -1,0 +1,6 @@
+"husky": {
+    "hooks": {
+      "commit-msg":"npx --no-install commitlint --edit ",
+      "pre-commit": "lint-staged"
+    }
+  },
